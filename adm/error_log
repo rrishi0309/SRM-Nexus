@@ -1,0 +1,2 @@
+[02-Oct-2018 19:14:08 Asia/Kolkata] PHP Recoverable fatal error:  Object of class Twig_Source could not be converted to string in /home/rishiram/public_html/client/pixlz/nexus/phpbb/template/twig/lexer.php on line 147
+[02-Oct-2018 19:15:18 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting ')' in /home/rishiram/public_html/client/pixlz/nexus/language/en/common.php on line 144

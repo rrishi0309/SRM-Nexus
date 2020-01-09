@@ -1,0 +1,19 @@
+{
+  "name": "eles-child",
+  "version": "1.6.1",
+  "description": "Child theme based on ELES Responsive Theme for PHPBB3.1",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-customize-bootstrap": "^0.2.0",
+    "load-grunt-tasks": "~1.0.0",
+    "time-grunt": "^1.2.2"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

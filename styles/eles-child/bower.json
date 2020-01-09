@@ -1,0 +1,26 @@
+{
+  "name": "eles-child",
+  "version": "1.6.1",
+  "description": "Child theme based on ELES Responsive Theme for PHPBB3.1",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "homepage": "http://www.gophpbb.com/eles/",
+  "authors": [
+    "gophpbb <www.gophpbb.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower_components/",
+    "theme/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "~4.5.0"
+  },
+  "resolutions": {
+    "components-font-awesome": "~4.5.0"
+  }
+}

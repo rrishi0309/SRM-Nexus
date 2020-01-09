@@ -1,0 +1,24 @@
+{
+	"name": "s9e/mediaembed",
+	"type": "phpbb-extension",
+	"description": "Embed third-party content in your phpBB forum",
+	"homepage": "https://github.com/s9e/phpbb-ext-mediaembed/",
+	"version": "20170724",
+	"keywords": ["phpbb","embed","forum","media"],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"authors": [{ "name": "JoshyPHP" }],
+	"extra": {
+		"display-name": "s9e/mediaembed",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.4"
+		},
+		"version-check": {
+			"host":      "cdn.rawgit.com",
+			"directory": "/s9e/phpbb-ext-mediaembed/master",
+			"filename":  "versions.json"
+		}
+	}
+}

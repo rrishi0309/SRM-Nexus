@@ -1,0 +1,28 @@
+[03-Aug-2017 17:25:13 Etc/GMT] PHP Fatal error:  Uncaught exception 'phpbb\language\exception\language_file_not_found' with message 'Language file ./language/en/common.php couldn't be opened.' in /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php:185
+Stack trace:
+#0 /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php(143): phpbb\language\language_file_loader->get_language_file_path('./language/', 'common.php', Array)
+#1 /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php(77): phpbb\language\language_file_loader->load_file('./language/', 'common', Array, Array)
+#2 /home/pixlzoes/public_html/nexus/phpbb/language/language.php(625): phpbb\language\language_file_loader->load('common', Array, Array)
+#3 /home/pixlzoes/public_html/nexus/phpbb/language/language.php(384): phpbb\language\language->load_core_file('common')
+#4 /home/pixlzoes/public_html/nexus/phpbb/language/language.php(173): phpbb\language\language->load_common_language_files()
+#5 /home/pixlzoes/public_html/nexus/phpbb/user.php(555): phpbb in /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php on line 185
+[03-Aug-2017 17:25:35 Etc/GMT] PHP Fatal error:  Uncaught exception 'phpbb\language\exception\language_file_not_found' with message 'Language file ./language/en/common.php couldn't be opened.' in /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php:185
+Stack trace:
+#0 /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php(143): phpbb\language\language_file_loader->get_language_file_path('./language/', 'common.php', Array)
+#1 /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php(77): phpbb\language\language_file_loader->load_file('./language/', 'common', Array, Array)
+#2 /home/pixlzoes/public_html/nexus/phpbb/language/language.php(625): phpbb\language\language_file_loader->load('common', Array, Array)
+#3 /home/pixlzoes/public_html/nexus/phpbb/language/language.php(384): phpbb\language\language->load_core_file('common')
+#4 /home/pixlzoes/public_html/nexus/phpbb/language/language.php(173): phpbb\language\language->load_common_language_files()
+#5 /home/pixlzoes/public_html/nexus/phpbb/user.php(555): phpbb in /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php on line 185
+[03-Aug-2017 17:25:36 Etc/GMT] PHP Fatal error:  Uncaught exception 'phpbb\language\exception\language_file_not_found' with message 'Language file ./language/en/common.php couldn't be opened.' in /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php:185
+Stack trace:
+#0 /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php(143): phpbb\language\language_file_loader->get_language_file_path('./language/', 'common.php', Array)
+#1 /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php(77): phpbb\language\language_file_loader->load_file('./language/', 'common', Array, Array)
+#2 /home/pixlzoes/public_html/nexus/phpbb/language/language.php(625): phpbb\language\language_file_loader->load('common', Array, Array)
+#3 /home/pixlzoes/public_html/nexus/phpbb/language/language.php(384): phpbb\language\language->load_core_file('common')
+#4 /home/pixlzoes/public_html/nexus/phpbb/language/language.php(173): phpbb\language\language->load_common_language_files()
+#5 /home/pixlzoes/public_html/nexus/phpbb/user.php(555): phpbb in /home/pixlzoes/public_html/nexus/phpbb/language/language_file_loader.php on line 185
+[19-Sep-2017 12:36:53 Etc/GMT] PHP Fatal error:  Call to a member function getName() on a non-object in /home/pixlzoes/public_html/nexus/includes/functions.php on line 4311
+[19-Sep-2017 12:36:54 Etc/GMT] PHP Fatal error:  Call to a member function getName() on a non-object in /home/pixlzoes/public_html/nexus/includes/functions.php on line 4311
+[02-Oct-2018 19:03:45 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required './ext/boardtools/upload/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/rishiram/public_html/client/pixlz/nexus/cache/production/autoload_4335734bbdd20f586549a504dff5f80c.php on line 9
+[02-Oct-2018 19:15:31 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting ')' in /home/rishiram/public_html/client/pixlz/nexus/language/en/common.php on line 144

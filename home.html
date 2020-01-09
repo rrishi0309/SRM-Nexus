@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Nexus</title>
+	  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+	<!-- Included Google Fonts -->
+	<link href="landingasset/css" rel="stylesheet" type="text/css">
+	
+	<!-- CSS Files comes here -->
+	<link href="landingasset/grid12.css" rel="stylesheet" media="screen">                              	 <!-- Grid System -->
+	<link href="landingasset/james_typography.css" rel="stylesheet" media="screen">                       <!-- James Framework - TYPOGRAPHY -->
+	<link href="landingasset/main.css" rel="stylesheet" media="screen">                                   <!-- Main CSS file -->
+	<link href="landingasset/font-awesome.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="landingasset/animsition.css">
+
+    
+
+	   
+  </head>
+  
+  <body>
+  <div class="animsition">
+	<div id="preloader_container" class="loaded">
+	    
+	    <!-- Preloader Screen -->
+	
+	    <!-- //Preloader Screen -->
+	
+	
+		<!-- Fullscreen homepage -->
+		<section>		
+
+
+ 
+
+			<!-- Logo and navigation -->
+		  	<div class="container">
+		  		<div class="row">
+		  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 outher">
+			  		<div class="inner float-left"><a  href="https://www.pixlz.in" target="_blank"><p> <strong>Pixlz™</strong></p></a></div>
+			  			<div class="inner float-right"><p><strong>Study Resources and Materials</strong></p></div>
+		  			</div>
+		  		</div>
+			</div>
+			<!-- //Logo and navigation -->
+
+
+			<!-- Main content -->
+		  	<div class="container align-center" id="main_content">
+				<div class="content_container row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  home_content">
+						<h2 class="slogan">Welcome To Nexus!</h2>
+						<h6>Hi There! Join us and stay connected with everyone! </h6>
+						
+						<!-- CTA Button-->
+						<div class="cta_button_area">
+							<div  href="ucp.php?mode=login" class="animsition-link" style="display:inline-block;"> <button  class="btn waves-effect waves-light subscribe-submit"  >Login</button></div>
+							<div  href="ucp.php?mode=register" class="animsition-link" style="display:inline-block;"><button style="background-color:#4CAF50" class="btn waves-effect waves-light subscribe-submit">Register</button></div>
+						</div>
+						
+							
+							
+					
+						<!-- //CTA Button-->
+						
+						<div class="home_mockups align-center">
+							<img src="landingasset/home_mockups_3.png" alt="" class="img_responsive home_mockups_3">
+							<img src="landingasset/home_mockups_2.png" alt="" class="img_responsive home_mockups_2">
+							<img src="landingasset/home_mockups_1.png" alt="" class="img_responsive home_mockups_1">
+						</div>
+									
+					</div>				
+				</div>			
+			</div>  
+			<!-- //Main content -->			
+	
+		</section>
+		<!-- //Homepage -->
+
+
+		<!-- Footer -->
+		<section id="footer" class="subsection color_bg">
+		  	<div class="container">
+		  		<div class="row ">
+		  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 outher">
+		  			<a  href="https://www.pixlz.in" target="_blank"> <p class="inner" >Pixlz™ © Copyright 2018</p> </a>
+		  			</div>
+		  		</div>
+			</div>
+		</section>
+		<!-- //Footer -->
+				
+
+	</div>
+	</div>
+	<!-- //preloader -->
+	
+	<!-- jQuery -->
+	<script src="landingasset/jquery-3.1.1.js"></script>
+	<!-- animsition.js -->
+	<script src="landingasset/animsition.js"></script>
+	
+<script>
+$(document).ready(function() {
+  $(".animsition").animsition({
+    outClass: 'fade-out-up-sm',
+    outDuration: 1000,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+   
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+	timeout: true,
+	timeoutCountdown: 0,
+   
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+</script>
+	
+    	
+	
+    
+    
+   
+    
+  
+</body></html>
