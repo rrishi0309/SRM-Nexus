@@ -5,6 +5,8 @@ Link: https://rishiramesh.space/client/pixlz/nexus/index.php
 
 **SRM Nexus** is a social networking site built to bring student clubs together under one unified platform. It is based on PHP BB and is available for students at SRM Institute of Science and Technology. The platform offers a variety of features that can help clubs improve communication and collaboration, including shared forums, inter-club forums, an event calendar, and a messaging system. SRM Nexus can also help clubs increase visibility and participation by providing a central platform to showcase their activities and attract new members. Additionally, the platform can facilitate resource sharing and knowledge exchange by enabling clubs to share best practices, resources, and event planning tips. 
 
+![image](https://github.com/rrishi0309/SRM-Nexus/assets/27177572/538ccc9e-7de0-457b-938b-dc0d83aca14c)
+
 ## Table of Contents
 - [About](#about)
 - [Features](#features)
